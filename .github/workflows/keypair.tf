@@ -1,4 +1,0 @@
-resource "aws_key_pair" "Freezy" {
-  key_name   = "Freezy-key"
-  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQClm+fjNq4UV5KT0prmuA32eUVn/G4WQP5MBrwGtEM5AxcQ2AzeUZeO6tijX4aEnqfj8B52aOfoVC+MkJ4oEsI/gb989isoeBhFHfC3WF8RDlF/HCQkIIOh9s0LNRhqQVmMPdFX5WXfjG/WjkN+PGuWhFeZLkaavgh5H1ThY3l9HqQi6mHyMX9kDbYdDLKYPdfUgZh8bv92Ap+m8KMQL30rvYfeo1u9kflPgCumG8EeMNbcuTVlZ6AhFfOlX0MjNrc9SGffYg7ndMALDGCJzo4RtGVqzWbY0HgqktgkO4N+eU9jzWE9nyoq1lKll0/Fs9JxwlEjS25ek0yso8ppsNQB FreezyBreezy@Farizas-MacBook-Air.local"
-}
