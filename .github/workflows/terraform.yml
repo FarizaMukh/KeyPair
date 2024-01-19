@@ -36,9 +36,6 @@ jobs:
     - name: Terraform destroy 
       run: terraform destroy
 
-    - name: Terraform destroy
-      run: terraform destroy -auto-approve
-
 
 
 
