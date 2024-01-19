@@ -6,4 +6,3 @@ resource "aws_instance" "test" {
     Name = "FreezyExample"
   }
 }
-#"m"
