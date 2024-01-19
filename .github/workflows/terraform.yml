@@ -33,8 +33,8 @@ jobs:
     - name: Format Terraform code
       run: terraform fmt -check -recursive
 
-    - name: Terraform Plan -destroy
+    - name: Terraform Plan 
       run: terraform plan
 
-    - name: Terraform Apply -destroy
+    - name: Terraform Apply 
       run: terraform apply -auto-approve
