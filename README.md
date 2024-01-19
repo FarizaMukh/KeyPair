@@ -1,2 +1,0 @@
-# KeyPair
-for Terraform
