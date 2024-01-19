@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "Freezy's Bucket"
+    bucket = "freezybucket"
     key    = "path/to/my/key"
     region = "us-east-2"
   }
