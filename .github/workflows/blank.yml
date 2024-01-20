@@ -3,7 +3,15 @@ name: Terraform Workflow
 on:
   push:
     branches:
-      - test#2
+      - '*'
+      - '!main'
+      
+    pull_request:
+       branches:
+       - 'main'
+      
+    types:
+      - closed
 
 jobs:
   terraform:
@@ -35,6 +43,6 @@ jobs:
     - name: Terraform Plan 
       run: terraform plan
 
-    - name: Terraform Graph
-      run: terraform graph 
-
+    - name: Terraform Apply 
+      if: github.event_name == 'pull_request'
+      run = Terraform apply
