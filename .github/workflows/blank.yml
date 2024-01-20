@@ -32,7 +32,7 @@ jobs:
     - name: Format Terraform code
       run: terraform fmt -check -recursive
 
-    - name: Terraform Plan
+    - name: Terraform Plan 
       run: terraform plan
 
     - name: Terraform Graph
