@@ -3,7 +3,7 @@ name: Terraform Workflow
 on:
   push:
     branches:
-      - main
+      - test
 
 jobs:
   terraform:
@@ -35,8 +35,4 @@ jobs:
     - name: Terraform Plan 
       run: terraform plan
 
-    - name: Terraform Graph
-      run: terraform graph 
 
-    - name: Terraform Apply
-      run: terraform apply -auto-approve
