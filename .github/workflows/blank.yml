@@ -38,5 +38,3 @@ jobs:
     - name: Terraform Graph
       run: terraform graph 
 
-    - name: Terraform Apply
-      run: terraform apply -auto-approve
